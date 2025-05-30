@@ -1,0 +1,59 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    max-width: 350px;
+    max-height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+     font-family: "Inter", sans-serif;
+}
+
+.profile img {
+    margin-left: 150px;
+    margin-top: 25px;
+    border-radius: 50%;
+    max-width: 60px;
+}
+
+.profile h1 {
+   color:  hsl(0, 0%, 100%, 0.8);
+   font-size: 22px;
+   text-align: center;
+}
+
+.profile h3 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    text-align: center;
+}
+
+.links h4 {
+    color:  hsl(0, 0%, 100%, 0.4);
+    font-size: 14px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    /* padding-left: 100px; */
+}
+
+.link {
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 14px;
+    width: 80%;
+    background-color:  hsl(0, 0%, 20%);
+}
+
+.attribution {
+    text-align: center;
+}
