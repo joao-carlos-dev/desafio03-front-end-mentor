@@ -1,5 +1,6 @@
 body {
     background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -7,8 +8,8 @@ body {
     max-width: 350px;
     max-height: auto;
     margin: 0 auto;
+    padding: 12px;
     border-radius: 12px;
-     font-family: "Inter", sans-serif;
 }
 
 .profile img {
@@ -42,7 +43,6 @@ body {
     font-size: 12px;
     display: block;
     text-align: center;
-    /* padding-left: 100px; */
 }
 
 .link {
@@ -52,8 +52,20 @@ body {
     margin-top: 14px;
     width: 80%;
     background-color:  hsl(0, 0%, 20%);
+    transition: background-color 0.4s ease;
+}
+
+.link:hover {
+    background-color:   hsl(75, 94%, 57%, 0.2);
 }
 
 .attribution {
     text-align: center;
+    font-size: 12px;
+    background-color:  hsl(0, 0%, 20%);
+    color:  hsl(0, 0%, 100%);
+    padding: 18px;
+    max-width: 320px;
+    margin: 8px auto;
+    border-radius: 8px;
 }
